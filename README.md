@@ -10,8 +10,8 @@ independently by three annotators.
 
 Audio is 16 kHz WAV, about 115 MB in total, stored with Git LFS.
 
-> _TODO: a sentence or two on what the dataset is for (e.g. ASR for Moroccan
-> dialects, dialect identification) and who made it._
+We made this dataset to explicitly identify Moroccan Arabic on the sub-dialect level. Moroccan Arabic can change
+dramatically depending on the region, yet most datasets for Moroccan Arabic don't label local provenance. This small, pilot dataset hopes to be useful for researchers looking into intra-dialect differences for Moroccan Arabic.
 
 ## Layout
 
@@ -98,23 +98,22 @@ consensus value isn't enough.
 
 ## Sources
 
-> _TODO: describe how the audio was collected._ Judging by the original file
-> names, it includes segments of longer recorded sessions, clips from YouTube
-> videos and radio recordings.
+This dataset was gathered from local radio audio data around Morocco, we also made use of suitable audio from the ARCADE dataset. Around nine minutes of our audio for the Casablanca subsection and three minutes for the Tangier subsection come from ARCADE. [`riotu-lab/ARCADE-full`](https://huggingface.co/datasets/riotu-lab/ARCADE-full)
+under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
 
-## Notes
+If you use this dataset, please also cite ARCADE:
 
-- **Tangier includes Tetouan.** 20 Tangier clips (`tangier-019` to
-  `tangier-038`) come from recordings originally named `Tetouan_…`. Their
-  new IDs follow the Tangier numbering; `original_filename` keeps the source
-  name so each clip can be traced back.
-- **`tangier-039` is intentionally missing.** The clip
-  `WwUF8uoO00c_segment_02` was filed under both Tangier and Casablanca in
-  Airtable. It is kept once, as `casablanca-036`, and the Tangier number was
-  left unused so that `id` and `old_id` stay aligned.
-- **Splits.** Every clip is currently `train`. If you add validation/test
-  splits, keep segments of the same source recording (same YouTube ID or same
-  session prefix) in the same split to avoid leakage.
+```bibtex
+@misc{nacar2026arcadecityscalecorpusfinegrained,
+      title={ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging},
+      author={Omer Nacar and Serry Sibaee and Adel Ammar and Yasser Alhabashi and Nadia Samer Sibai and Yara Farouk Ahmed and Ahmed Saud Alqusaiyer and Sulieman Mahmoud AlMahmoud and Abdulrhman Mamdoh Mukhaniq and Lubaba Raed and Sulaiman Mohammed Alatwah and Waad Nasser Alqahtani and Yousif Abdulmajeed Alnasser and Mohamed Aziz Khadraoui and Wadii Boulila},
+      year={2026},
+      eprint={2601.02209},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.02209},
+}
+```
 
 ## License
 
