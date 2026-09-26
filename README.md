@@ -3,11 +3,6 @@
 Short audio clips of Moroccan Arabic (Darija) speech from three cities (Casablanca, Tangier, Oujda) each transcribed and labelled
 independently by three annotators.
 
-| | Casablanca | Oujda | Tangier | Total |
-|---|---|---|---|---|
-| Clips | 40 | 40 | 40 | **120** |
-| Annotations (3 per clip) | 120 | 120 | 120 | **360** |
-
 Audio is 16 kHz WAV, about 115 MB in total, stored with Git LFS.
 
 We made this dataset to explicitly identify Moroccan Arabic on the sub-dialect level. Moroccan Arabic can change
