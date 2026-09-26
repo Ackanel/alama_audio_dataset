@@ -110,10 +110,12 @@ If you use this dataset, please also cite ARCADE:
 }
 ```
 
-## License
-
-_TODO_
-
 ## Citation
 
-_TODO_
+@misc{alama_audio_dataset_2026,
+  title        = {{ALAMA} Audio Dataset: Transcribed Moroccan Arabic Speech from Casablanca, Oujda and Tangier>},
+  author       = {Avery Cole Kanel and Christian Schuler and Bouazza Laracha and Imrane Lbouhli and Yassine Chaouri and Yusser Al Ghussin and Timo Baumann},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/Ackanel/alama_audio_dataset}
+}
