@@ -1,7 +1,6 @@
 # ALAMA Audio Dataset
 
-Short audio clips of Moroccan Arabic (Darija) speech from three cities —
-**Casablanca**, **Oujda** and **Tangier** — each transcribed and labelled
+Short audio clips of Moroccan Arabic (Darija) speech from three cities (Casablanca, Tangier, Oujda) each transcribed and labelled
 independently by three annotators.
 
 | | Casablanca | Oujda | Tangier | Total |
