@@ -117,9 +117,34 @@ consensus value isn't enough.
   splits, keep segments of the same source recording (same YouTube ID or same
   session prefix) in the same split to avoid leakage.
 
+## Source data and attribution
+
+Some of the audio comes from **ARCADE** (Nacar et al., 2026), a corpus of
+Arabic radio recordings tagged by city, published on Hugging Face as
+[`riotu-lab/ARCADE-full`](https://huggingface.co/datasets/riotu-lab/ARCADE-full)
+under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Those clips
+were converted to 16 kHz WAV and transcribed and labelled for this dataset.
+
+> _TODO: list which clips come from ARCADE (e.g. by `original_filename`)._
+
+If you use this dataset, please also cite ARCADE:
+
+```bibtex
+@misc{nacar2026arcadecityscalecorpusfinegrained,
+      title={ARCADE: A City-Scale Corpus for Fine-Grained Arabic Dialect Tagging},
+      author={Omer Nacar and Serry Sibaee and Adel Ammar and Yasser Alhabashi and Nadia Samer Sibai and Yara Farouk Ahmed and Ahmed Saud Alqusaiyer and Sulieman Mahmoud AlMahmoud and Abdulrhman Mamdoh Mukhaniq and Lubaba Raed and Sulaiman Mohammed Alatwah and Waad Nasser Alqahtani and Yousif Abdulmajeed Alnasser and Mohamed Aziz Khadraoui and Wadii Boulila},
+      year={2026},
+      eprint={2601.02209},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.02209},
+}
+```
+
 ## License
 
-_TODO_
+_TODO_ — the ARCADE clips remain under CC BY 4.0 whatever license is chosen
+for the rest of the dataset.
 
 ## Citation
 
